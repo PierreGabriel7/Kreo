@@ -1,0 +1,12 @@
+//  Import Variables
+@import "../sass/variables/variables";
+// Import reset css
+@import "../css/reset.css";
+// fichier de base
+@import "../sass/bases/bases";
+// layout simple
+@import "../sass/layout/header";
+@import "../sass/layout/main";
+@import "../sass/layout/comments";
+@import "../sass/layout/form";
+@import "../sass/layout/footer";

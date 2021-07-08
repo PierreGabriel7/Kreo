@@ -1,0 +1,61 @@
+.l-footer-social i {
+    color: $p-main-color;
+    padding: .7rem;
+    font-size: 1.2rem;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.l-footer-kreo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    color: $p-main-color;
+    margin: 1.2rem;
+    font-size: 2.1rem;
+}
+
+.l-footer-kreo::before {
+    content: "";
+    background-color: $p-main-color;
+    position: relative;
+    width: 16rem;
+    height: 1px;
+}
+
+.l-kreo-footer {
+    margin: 2rem 1rem;
+}
+
+.l-footer-kreo p {
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+}
+
+.l-footer-copyright {
+    margin: 6rem 5rem 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.l-footer-copyright a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+/* Media querry tablet */
+
+@media screen and (min-width: 720px) {}
+
+
+/* Media querry desktop */
+
+@media screen and (min-width: 960px) {}

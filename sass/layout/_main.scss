@@ -1,0 +1,255 @@
+//  OUR LATEST PROJECTS
+.l-white-title {
+    text-align: center;
+    color: $h-main-color-primary;
+}
+
+.h2-main-container::before {
+    content: "";
+    width: 6rem;
+    display: inline-block;
+    height: 3px;
+    background-color: $p-main-color;
+    position: relative;
+    bottom: -4rem;
+    left: 50%;
+    margin-left: -3rem;
+    font-weight: lighter;
+}
+
+.l-white-title::after {
+    content: ".";
+    display: inline-block;
+    color: $h-main-color-secondary;
+    position: relative;
+    margin-left: .4rem;
+}
+
+p.l-p-center {
+    margin: 5rem 2rem 0 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+// Image Gallery
+.img-display {
+    width: 200px;
+    height: auto;
+}
+
+.l-gallery-img-container {
+    display: inline-block
+}
+
+.l-gallery-display-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+// Marketing
+.l-wrap-services-content {
+    padding: 2.5rem;
+}
+
+.l-yellow-h-container {
+    margin-bottom: 2rem;
+}
+
+// CREW
+.l-meet-team {
+    padding: 2.5rem;
+}
+
+.h2-main-container {
+    margin-bottom: 4rem;
+}
+
+.crew-img {
+    height: 100px;
+    width: 100px;
+}
+
+h4.l-crew-name {
+    font-weight: bolder;
+    font-size: $h-jobs-name-size;
+}
+
+.l-crew-job {
+    color: $p-jobs-color;
+    font-size: $p-jobs-size;
+}
+
+.lcrew-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: .5rem;
+    margin-bottom: 2rem;
+}
+
+.l-crew-name-container {
+    margin: 1.5rem;
+}
+
+.l-crew-description {
+    margin: 1rem 0;
+}
+
+.l-crew-social i {
+    color: #FFF;
+    padding: .7rem;
+}
+
+// REVIEWS
+.l-review-container {
+    background-color: #ecb600;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 7rem;
+    margin-bottom: 4rem;
+}
+
+.l-review-user-img {
+    width: 5rem;
+    border-radius: 2.5rem;
+    border: 6px solid #FFF;
+}
+
+.l-text-review,
+.l-review-name {
+    color: #FFF;
+}
+
+.l-text-review {
+    padding: 9rem 4rem 4rem 2rem;
+}
+
+.l-review-job {
+    color: #000;
+    font-size: .9rem;
+    font-weight: bolder;
+}
+
+.l-review-name-container {
+    margin: 1rem;
+}
+
+.l-services-content {}
+
+
+/* Media querry tablet */
+
+@media screen and (min-width: 720px) {
+    .l-gallery-display-container {
+        margin: 0 auto;
+        justify-content: flex-start;
+    }
+    p.l-p-center {
+        text-align: start;
+        margin: 3rem 0;
+        padding: 2rem;
+    }
+    .h2-main-container {
+        margin-left: 2rem;
+    }
+    .l-white-title {
+        margin-top: 3rem;
+        text-align: start;
+    }
+    .h2-main-container::before {
+        left: 3rem;
+        bottom: -7rem;
+    }
+    .l-wrap-services-content {
+        width: auto;
+        padding: 0;
+    }
+    .l-yellow-h-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 2rem;
+        width: auto;
+    }
+    .l-services-content {
+        width: 23rem;
+    }
+    .l-services-content p {
+        width: auto;
+        margin-bottom: 1rem;
+    }
+    // Crew
+    .l-meet-team {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .lcrew-container {
+        width: 17rem;
+    }
+    // In touch
+    .l-in-touch {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .l-summary-wrap {
+        width: 320px;
+        margin: 0;
+        padding: 0;
+    }
+    .l-form-aside-wrap {
+        width: 800px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .l-gallery-img-container {
+        display: flex;
+        width: 33%;
+    }
+    .img-display {
+        width: 100%;
+    }
+}
+
+
+/* Media querry desktop */
+
+@media screen and (min-width: 960px) {
+    .l-crew-name-container {
+        margin: 0;
+    }
+    .l-wrap-services-content {
+        width: 19rem;
+    }
+    .l-wrap-services-content.second-content {
+        width: 25rem;
+    }
+    .crew-img {
+        width: 100%;
+        height: auto;
+    }
+    .l-review-container {
+        width: 500%;
+        margin-left: -200%;
+    }
+    .l-text-review {
+        width: 65rem;
+        text-align: center;
+    }
+    .l-review-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .l-gallery-display-container {
+        justify-content: center;
+    }
+    .l-services-content {
+        width: 290px;
+    }
+}

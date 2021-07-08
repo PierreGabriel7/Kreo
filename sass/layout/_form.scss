@@ -1,0 +1,128 @@
+// Get in touch
+.l-in-touch {
+    margin: 0 auto;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.l-form-aside-wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form-field {
+    width: 300px;
+    margin: 1.5rem;
+    padding: 1rem;
+    border-radius: .1rem;
+    border: none;
+    background-color: #363636;
+}
+
+.form-field.comment {
+    height: 10rem;
+}
+
+.submit-button {
+    background-color: $h-main-color-secondary;
+    border: none;
+    padding: 1.4rem;
+    margin: 1rem 1rem;
+    width: 300px;
+    border-radius: .3rem;
+    font-weight: bolder;
+}
+
+.form-in-touch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+// ASIDE
+.l-summary-wrap {
+    margin: 1rem 2rem;
+    padding: 1rem;
+}
+
+.aside-info {
+    margin: 2rem 0;
+}
+
+.contact, .infos {
+    margin: 0;
+    padding: 0;
+}
+
+.l-summary-wrap h2.l-yellow-title {
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+br {
+    display: block;
+    margin-bottom: 2px;
+    font-size: 2px;
+    line-height: 2px;
+}
+
+.f-bck-top-p {
+    color: #FFF;
+    padding: .7rem 3rem;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f37600;
+    border-radius: .2rem;
+    font-weight: bolder;
+    font-size: .9rem;
+    position: relative;
+    bottom: -17px;
+    left: 50%;
+    margin-left: -87px;
+}
+
+
+/* Media querry tablet */
+
+@media screen and (min-width: 720px) {
+    .f-bck-top-p {
+        color: #FFF;
+        padding: .7rem 3rem;
+        display: inline-block;
+        margin: 0 auto;
+        position: relative;
+        bottom: 0;
+        left: 50%;
+        margin-top: 2rem;
+        margin-left: -88px;
+    }
+}
+
+
+/* Media querry desktop */
+
+@media screen and (min-width: 960px) {
+    .l-in-touch {
+        justify-content: space-around;
+    }
+    .form-in-touch, form-title {
+        margin-left: 8.5rem;
+    }
+    .l-white-title.form-title {
+        margin-left: 13.5rem;
+    }
+    .l-summary-wrap {
+        margin-right: 8.5rem;
+    }
+    .l-form-aside-wrap {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .in-touch-wrap .l-white-title {
+        display: inline-block;
+    }
+}
